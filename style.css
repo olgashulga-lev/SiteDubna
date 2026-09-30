@@ -1,0 +1,72 @@
+.inputOrange{
+    background-color: rgb(254, 205, 165);
+    border-color: orange;
+    border-radius: 7px;
+}
+
+.inputSelect{
+    background-color: rgb(254, 205, 165);
+    border-color: orange;
+    border-radius: 7px;
+}
+
+.flex-input-text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-container {
+    border: 3px solid orange;
+    border-radius: 60px;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(255, 140, 0, 0.5);
+    max-width: 290px;
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+.header{
+    background-color: red;
+    padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+.footer{
+    background-color: blue;
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+.body{
+    position: relative;
+    padding-bottom: 100px;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.main-containor{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.ul-nav{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.to-footer{
+    padding-bottom: 40px;
+}
+.ul-nav-li{
+    border: 3px solid orange;
+    padding: 5px;
+}

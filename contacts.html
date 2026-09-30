@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание1</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <header class="header">
+        <img src="images/Логотип уника.png" width="250">
+    </header>
+    <div class="main-containor">
+        <nav>
+            <ul class="ul-nav">
+                <li class="ul-nav-li">
+                    <a href="sem1.html">О себе</a>
+                </li>
+                <li class="ul-nav-li">
+                    <a href="resume.html">Резюме</a>
+                </li>
+                <li class="ul-nav-li">
+                    <a href="#">Портфолио</a>
+                </li>
+                <li class="ul-nav-li">
+                    <a href="competencies.html">Компетенции</a>
+                </li>
+                <li class="ul-nav-li">
+                    <a href="contacts.html">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <div>
+            <h4>Есть вопросы?</h4>
+        </div>
+        <div class="form-container">
+            <div>Как вам  удобно получить ответ:</div>
+            <div>
+                <label for="c_mail">
+                    <input type="radio" name="com_tion" id="c_mail"> по почте
+                </label><br>
+                <label for="c_tel">
+                    <input type="radio" name="com_tion" id="c_tel"> по телефону
+                </label><br>
+                <label for="c_none">
+                    <input type="radio" name="com_tion" id="c_none"> не нужно отвечать
+                </label>
+            </div>
+            <div>
+                <label for="theme">
+                    Укажите тему вопроса
+                </label><br>
+                <select name="theme" id="theme" class="inputSelect">
+                    <option value="work">работа</option>
+                    <option value="coop">сотрудничество</option>
+                    <option value="personal">личное</option>
+                </select>
+            </div>
+            <div>
+                <div>И еще один вопрос?</div>
+                <label for="chb1">
+                    <input type="checkbox" name="chb1" id="chb1">может так
+                </label><br>
+                <label for="chb2">
+                    <input type="checkbox" name="chb2" id="chb2">или не так
+                </label><br>
+                <label for="chb3">
+                    <input type="checkbox" name="chb3" id="chb3">иначе
+                </label><br>
+            </div>
+            <div class="flex-input-text">
+                <label for="name">Ваше имя </label>
+                <div><input type="text" name="name" id="name" class="inputOrange"></div>
+            </div>
+            <div class="flex-input-text">
+                <label for="email">Адрес почты </label>
+                <input type="text" name="email" id="email" class="inputOrange">
+            </div>
+            <div class="flex-input-text">
+                <label for="phone">Номер телефона </label>
+                <input type="text" name="phone" id="phone" class="inputOrange">
+            </div>
+            <div class="flex-input-text">
+                <label for="message">Ваш вопрос: </label><br>
+                <textarea name="message" id="message" cols="40" rows="2"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Отправить вопрос" class="inputOrange">
+            </div>
+        </div>
+        
+    </div>
+    <footer class="footer">
+        <div>
+            <img src="images/WK.png" width="100">
+            <img src="images/istagram.png" width="93">
+            <img src="images/github.png" width="93">
+        </div>
+        Сайт разработан Шульгой Ольгой, Copyright © 2021
+    </footer>
+</body>
+</html>
