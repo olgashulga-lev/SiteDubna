@@ -92,6 +92,13 @@
     box-sizing: border-box;
 }
 
+.body-myself{
+    position: relative;
+    padding-bottom: 250px;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
 .main-containor{
     padding-left: 30px;
     padding-right: 30px;
