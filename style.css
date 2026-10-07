@@ -27,25 +27,67 @@
 }
 
 .header{
-    background-color: red;
-    padding: 0px;
+    display: flex;
+    background-color: black;
+    padding: 30px 40px;
 	margin: 0px;
 	border: none;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ul-nav-myself{
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+    text-decoration: underline;
+    color: white;
+}
+
+.ul-nav-li-link-myself {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.header-comp{
+    display: flex;
+    background-color: white;
+    padding: 30px 40px;
+	margin: 0px;
+	border: none;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer{
-    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
     bottom: 0px;
+    left: 0px;
     position: absolute;
     width: 100%;
+    box-sizing: border-box;
     margin: 0px;
-    padding: 0px;
+    padding: 40px 40px;
     border: none;
 }
 
 .body{
     position: relative;
-    padding-bottom: 100px;
+    padding-bottom: 120px;
     min-height: 100vh;
     box-sizing: border-box;
 }
@@ -53,20 +95,90 @@
 .main-containor{
     padding-left: 30px;
     padding-right: 30px;
+    margin: 0;
+    padding: 0;
 }
 
 .ul-nav{
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+    text-decoration: underline;
+    color: black;
+}
+
+.to-footer{
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.ul-nav-li{
+    border-left: 2px solid blue;
+    padding-left: 12px;
+}
+
+.ul-nav-li-link {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.ul-nav-li-link:hover {
+    text-decoration: underline;
+}
+
+.black-body{
+    background-color: black;
+    color: white;
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.competencies-flex{
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
     list-style: none;
 }
-
-.to-footer{
-    padding-bottom: 40px;
+.icons-competencies-text-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
 }
-.ul-nav-li{
-    border: 3px solid orange;
-    padding: 5px;
+
+.body-services{
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.services-ul{
+    display: flex;
+    gap: 60px;
+    text-align: left;
+    max-width: 1600px;
+}
+
+.button-more{
+    background-color: white;
+    border-radius: 3px;
+}
+
+.hero {
+    background-color: black;
+    background-image: url("images/dubna-fon.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    box-sizing: border-box;
 }
