@@ -24,6 +24,7 @@
     max-width: 290px;
     background-color: white;
     margin-bottom: 40px;
+    margin: 0 auto;
 }
 
 .header{
@@ -188,4 +189,22 @@
     text-align: center;
     padding: 40px 20px;
     box-sizing: border-box;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.about-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.about-image {
+    flex: 1;
+    min-width: 300px;
+    text-align: right;
 }
